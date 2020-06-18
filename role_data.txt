@@ -1,0 +1,22 @@
+Date= June 17, 2020
+Patch 10.12
+
+Region= NA, Queue= RANKED_SOLO_5x5, Tier= CHALLENGER
+[('MID', 72), ('JUNGLE', 63), ('DUO_SUPPORT', 57), ('TOP', 57), ('DUO_CARRY', 51)]
+Region= NA, Queue= RANKED_SOLO_5x5, Tier= GRANDMASTER
+[('JUNGLE', 152), ('MID', 148), ('TOP', 146), ('DUO_SUPPORT', 132), ('DUO_CARRY', 121)]
+
+Region= KR, Queue= RANKED_SOLO_5x5, Tier= CHALLENGER
+[('DUO_SUPPORT', 67), ('TOP', 67), ('JUNGLE', 58), ('MID', 57), ('DUO_CARRY', 48)]
+Region= KR, Queue= RANKED_SOLO_5x5, Tier= GRANDMASTER
+[('DUO_SUPPORT', 143), ('JUNGLE', 141), ('DUO_CARRY', 139), ('TOP', 136), ('MID', 133)]
+
+Region= EUN, Queue= RANKED_SOLO_5x5, Tier= CHALLENGER
+[('DUO_SUPPORT', 47), ('JUNGLE', 46), ('MID', 45), ('TOP', 31), ('DUO_CARRY', 31)]
+Region= EUN, Queue= RANKED_SOLO_5x5, Tier= GRANDMASTER
+[('MID', 125), ('TOP', 101), ('DUO_SUPPORT', 101), ('JUNGLE', 88), ('DUO_CARRY', 79)]
+
+Region= EUW, Queue= RANKED_SOLO_5x5, Tier= CHALLENGER
+[('MID', 65), ('JUNGLE', 63), ('DUO_CARRY', 59), ('TOP', 57), ('DUO_SUPPORT', 56)]
+Region= EUW, Queue= RANKED_SOLO_5x5, Tier= GRANDMASTER
+[('JUNGLE', 168), ('DUO_SUPPORT', 141), ('MID', 138), ('TOP', 129), ('DUO_CARRY', 124)]
