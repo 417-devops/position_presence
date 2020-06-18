@@ -9,4 +9,4 @@ Additionally, playstyles vary by region. Korea (KR) is known for their aggressiv
 
 **Run *MAIN_challenger_list.py* to see the process for yourself.**
 
-**Read *MMM.pdf* for the full report.**
+**Read *Positional Presence patch 10-22.pdf* for the full report.**
