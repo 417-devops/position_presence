@@ -1,5 +1,5 @@
 # position_presence
-The purpose of this project is to determine the relative differences in role presence at an apex competitive level in the game League of Legends and compare across regions. It is serves as my first forray into using an API ([Riot API](https://developer.riotgames.com/)) in a development setting.
+The purpose of this project is to determine the relative differences in role presence at an apex competitive level in the game League of Legends and compare across regions. It is serves as my first foray into using an API ([Riot API](https://developer.riotgames.com/)) in a development setting.
 
 In theory, if all roles were of equal agency, the presence of each position would be 20% (five total roles). A higher presence would indicate a role with more impact and a lower presence would indicate a role with less impact.
 
