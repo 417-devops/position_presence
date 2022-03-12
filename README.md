@@ -5,6 +5,7 @@ In theory, if all roles were of equal agency, the presence of each position woul
 
 Additionally, playstyles vary by region. Korea (KR) is known for their aggressive early-game playstyles so it is expected that JUNGLE and DUO_SUPPORT have a higher presence. In contrast, North America (NA) and Europe West (EUW) are known for placing emphasis on MID, using roams to snowball advantages to the rest of the team.
 
+*Note that this uses a uses a Riot API library I wrote myself*
 ---
 
 **Run *MAIN_challenger_list.py* to see the process for yourself.**
