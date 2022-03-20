@@ -70,7 +70,7 @@ def get_challenger_lane(summonerName, player_routing, lol_watcher):
             
         except:
             pass
-   
+    
     player_pref_lane= Counter(lanes_played).most_common(1)[0][0]
     player_pref_role= Counter(roles_played).most_common(1)[0][0]
     win_loss_ratio= np.mean(win_loss_list)
@@ -83,7 +83,7 @@ lol_watcher= setup_env()
 
 # Get challenger players
 player_region= 'KR'.lower() #[BR1, EUN1, EUW1, JP1, KR, LA1, LA2, NA1, OC1, TR1, RU]  
-player_routing= 'americas'
+player_routing= 'asia'
 queue_type= 'RANKED_SOLO_5x5' #RANKED_SOLO_5x5, RANKED_FLEX_SR, 
 
 summoner_names= get_challenger_players(player_region,queue_type, lol_watcher)
