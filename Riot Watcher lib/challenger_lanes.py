@@ -33,10 +33,6 @@ def get_match_history(summonerName, player_region, summoner):
                                                     queue= 420, 
                                                     start=0, count= 5)
     return match_history
-    
-def get_time(matchID, player_routing):
-    game_time= lol_watcher.match.by_id(region= player_routing, match_id= matchID)['info']['gameDuration']
-    return game_time
 
 def get_challenger_players(player_region,queue_type, lol_watcher):
     challenger_players= pd.DataFrame.from_dict(lol_watcher.league.challenger_by_queue(region= player_region, 
@@ -94,10 +90,13 @@ for summonerName in summoner_names:
     print(summonerName)
         
     # summonerName= summoner_names[i] #grab the summoner name
-    res= get_challenger_lane(summonerName, player_routing, lol_watcher)
-    
-    row = pd.Series(res, index=raw_data.columns)
-    raw_data = raw_data.append(row, ignore_index=True)
+    try:
+        res= get_challenger_lane(summonerName, player_routing, lol_watcher)
+        
+        row = pd.Series(res, index=raw_data.columns)
+        raw_data = raw_data.append(row, ignore_index=True)
+    except:
+        pass
     
 # print(raw_data)
 raw_data['summoner names'] = summoner_names
