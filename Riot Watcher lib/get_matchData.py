@@ -55,7 +55,6 @@ if __name__ == '__main__':
     player_name= 'RebirthNA'
     player_region= 'NA1'.lower() #[BR1, EUN1, EUW1, JP1, KR, LA1, LA2, NA1, OC1, TR1, RU]  
     player_routing= 'americas'
-   
     
     ##--------- LOAD THE PLAYER DATA AS CLASS ---------##
     summoner= lol_watcher.summoner.by_name(player_region, player_name)
