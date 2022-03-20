@@ -9,7 +9,7 @@ Desc: Get lane that challenger players typically play
 #%% ##--------- LOAD LIBRARIES ---------##
 from riotwatcher import LolWatcher #'pip install riotwatcher' in Anaconda prompt
 from dotenv import load_dotenv #'pip install python-dotenv' in Anaconda prompt
-import os
+import os, time
 
 from collections import Counter
 import pandas as pd
@@ -82,7 +82,7 @@ start_time = time.time()
 lol_watcher= setup_env()
 
 # Get challenger players
-player_region= 'NA1'.lower() #[BR1, EUN1, EUW1, JP1, KR, LA1, LA2, NA1, OC1, TR1, RU]  
+player_region= 'KR'.lower() #[BR1, EUN1, EUW1, JP1, KR, LA1, LA2, NA1, OC1, TR1, RU]  
 player_routing= 'americas'
 queue_type= 'RANKED_SOLO_5x5' #RANKED_SOLO_5x5, RANKED_FLEX_SR, 
 
@@ -100,7 +100,8 @@ for summonerName in summoner_names:
     raw_data = raw_data.append(row, ignore_index=True)
     
 # print(raw_data)
+raw_data['summoner names'] = summoner_names
 filename= player_region+'_challenger_lanes'+'.xlsx'
-raw_data.to_excel(filename)
+raw_data.to_excel(filename, index = False)
 
 print("\n--- %s seconds ---" % (time.time() - start_time))
