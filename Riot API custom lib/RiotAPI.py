@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jun 15 13:41:33 2020
-@author: Karl Roush
 
 Class that serves as access point for Riot API (to make calls)
 """
