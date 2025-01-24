@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jun 15 13:30:51 2020
-@author: Karl Roush
 
 Constant values associated with the Riot API
 """
