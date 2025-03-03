@@ -3,6 +3,7 @@
 Created on Mon Jun 15 13:41:33 2020
 
 Class that serves as access point for Riot API (to make calls)
+NOTE: this is broken, but used as a conceptual tool for future projects
 """
 
 import requests
