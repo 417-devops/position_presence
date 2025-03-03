@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jun 15 13:54:40 2020
-@author: Karl Roush
+@author: 417-DevOps
 Determines the number of players by role in a given ladder
+NOTE: this is broken, but used as a conceptual tool for future projects
 """
 
 import time

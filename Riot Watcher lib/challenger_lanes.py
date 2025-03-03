@@ -99,6 +99,7 @@ for summonerName in summoner_names:
         pass
     
 # print(raw_data)
+del summoner_names[summoner_names.index('FLAGGED 48782073')]
 raw_data['summoner names'] = summoner_names
 filename= player_region+'_challenger_lanes'+'.xlsx'
 raw_data.to_excel(filename, index = False)
